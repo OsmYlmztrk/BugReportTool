@@ -13,6 +13,10 @@ It:
 
 ---
 
+
+https://github.com/user-attachments/assets/3f4f23cc-efd4-407e-b216-304b6c6c44aa
+
+
 ## Features
 
 - In-game bug report UI (summary + detail text fields)
@@ -155,8 +159,10 @@ It:
 
 ---
 
-![Inside Dropbox](BugReportTool\Media\Screenshot_1.png)
-![Inside Dropbox](BugReportTool\Media\Screenshot_2.png)
+<img width="1835" height="385" alt="ss1" src="https://github.com/user-attachments/assets/51727c59-cb43-4e12-8278-0153930d0cd6" />
+
+<img width="1902" height="348" alt="ss2" src="https://github.com/user-attachments/assets/6423caa4-c849-4bfe-b3de-e78581e11139" />
+
 
   ## Setting Up a Dropbox App and Access Token (Quick Guide)
 (This example applies only to Dropbox. Adjust according to your own application.)
