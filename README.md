@@ -155,9 +155,8 @@ It:
 
 ---
 
-## Ekran Görüntüleri
-
-![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Inside Dropbox](BugReportTool\Media\Screenshot_1.png)
+![Inside Dropbox](BugReportTool\Media\Screenshot_2.png)
 
   ## Setting Up a Dropbox App and Access Token (Quick Guide)
 (This example applies only to Dropbox. Adjust according to your own application.)
