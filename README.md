@@ -1,4 +1,4 @@
-# BugReportTool
+# Unity Bug Report Tool
 
 BugReportTool is a small Unity utility that helps you collect in-game bug reports from players and automatically upload them to Dropbox.
 
