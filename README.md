@@ -154,3 +154,45 @@ It:
   - Add a short description and, if possible, screenshots or GIFs of UI changes.
 
 ---
+
+## Ekran Görüntüleri
+
+![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+  ## Setting Up a Dropbox App and Access Token (Quick Guide)
+(This example applies only to Dropbox. Adjust according to your own application.)
+
+This project uses the Dropbox API to upload reports. For that, you need a Dropbox account and an app with an Access Token.
+
+1. **Create a Dropbox account**
+   - Go to https://www.dropbox.com.
+   - Create a free account or sign in with your existing one.
+
+2. **Open the Dropbox App Console**
+   - Visit https://www.dropbox.com/developers/apps.
+   - Click **Create app** (or **Create new app**).
+
+3. **Create a new app**
+   - Choose **Scoped access** as the API type (recommended).
+   - Choose the access type:
+     - If you only need a dedicated folder for this app: **App folder**
+     - If you really need access to the whole Dropbox: **Full Dropbox** (be careful for security).
+   - Give your app a name and click **Create app**.
+
+4. **Configure permissions (scopes)**
+   - On the app page, go to the **Permissions** (or **Scoped access / Permissions**) tab.
+   - Enable the scopes that allow reading/writing files, for example:
+     - `files.content.write`, `files.content.read` (exact names may change over time; look for file read/write permissions).
+
+5. **Generate an Access Token**
+   - On the app page, go to **Settings** or **App settings**.
+   - Find the **Generated access token** or **OAuth 2 / Generated access token** section.
+   - Click **Generate** (or **Generate access token**).
+   - Copy the generated **Access Token**.
+
+6. **Add the token to your Unity project**
+   - In Unity, select the `BugReportManager` component.
+   - In the Inspector, paste the token into the `m_DropboxAccesToken` field.
+   - Keep this token **secret**; don’t commit it to public repos or show it in screenshots.
+
+> Note: For a real production setup, you should not ship a permanent token directly in the client. Instead, use a backend service to issue short-lived tokens or proxy the upload securely.
